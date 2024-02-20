@@ -1,0 +1,1 @@
+cd ChaseLogic && mvn clean install && cd .. && cd Game && mvn clean install && java -jar target/Game-1.0-SNAPSHOT.jar --size=30 --enemiesCount=10 --wallsCount=10 --profile=production
